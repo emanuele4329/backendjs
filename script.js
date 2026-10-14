@@ -65,7 +65,7 @@ let proximaCor = 0;
 
 function adicionarCor(nomeDaCor) {
     const item = document.createElement("li");  //1. cria
-    item.textContent = nomeDaCor ;              //2. preenche
+    item.textContent = nomeDaCor;              //2. preenche
 
     // cada item  ganha seu proprio botão  de remover 
     const botaoRemover = document.createElement("button");
@@ -85,6 +85,10 @@ adicionarCor("verde");
 adicionarCor("azul");
 proximaCor = 3;
 
+document.querySelector("#btn-adicionar").addEventListener("click", () => {
+    adicionarCor(cores[proximaCor % cores.length]);
+    proximaCor++;
+});
 document.querySelector("#btn-limpar").addEventListener("click", () => {
     lista.innerHTML = "";
 });
