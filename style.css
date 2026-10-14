@@ -1,7 +1,7 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background: #eef3f1;
-    color: #1d2b28;
+    color: #764ca3;
     margin: 0;
     line-height: 1.6;
 }
@@ -10,7 +10,7 @@ main {
     margin: 32px auto;
     padding: 24px;
     background: #ffffff;
-    border-left: 6px solid #2f6f62;
+    border-left: 6px solid #875ca2;
 }
 h1 { margin: 0;}
 h2 {font-size: 1.2rem; margin-top: 32px;}
@@ -22,14 +22,14 @@ button, input {
     padding: 8px 12px;
 }
 button {
-    background: #2f6f62;
+    background: #9664c5;
     color: white;
     border: none;
     cursor: pointer;
 }
-button:hover {background: #24574d;}
+button:hover {background: #8d62c1;}
 nav button { background: #dfe9e6; color: #1d2d28;}
-nav button.ativo {background: #2f6f62; color: white;}
+nav button.ativo {background: #9954d65b; color: white;}
 li {padding: 4px 0;}
 li button { margin-left: 8px; padding: 2px 8px; font-size: 14px; background: #a32a2c; }
 .linha { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0;}
@@ -38,8 +38,8 @@ li button { margin-left: 8px; padding: 2px 8px; font-size: 14px; background: #a3
 .destaque {background: #fff2b3; padding: 4px 8px;}
 
 /*modo escuro: o JavaScript coloca esta classe no <body> */
-body.escuro { background: #1a2220; color: #e6ece9; }
-body.escuro main {background: #25302d;}
+body.escuro { background: #000000; color: #e6ece9; }
+body.escuro main {background: #090c0b;}
 
 /*so a "pagina" com a classe .visivel aparece */
 .pagina {display: none;}

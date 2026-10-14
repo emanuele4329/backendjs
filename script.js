@@ -95,8 +95,8 @@ const saudacao = document.querySelector("#saudacao");
 const contador = document.querySelector("#contador");
 
 // o evento "input" disapara a cada letra digitada
-campoNome.addEventListener("#input", () => {
-    const nome = campoNome.ariaValueMax.trim();
+campoNome.addEventListener("input", () => {
+    const nome = campoNome.value.trim();
 
     if (nome === "") {
        saudacao.textContent = "Digite algo no campo acima.";
